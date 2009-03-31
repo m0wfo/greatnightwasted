@@ -1,0 +1,8 @@
+--- 
+javascripts: 
+- base: 
+  - jquery
+stylesheets: 
+- base:
+  - global
+
