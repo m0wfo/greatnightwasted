@@ -44,3 +44,329 @@ Migrating to CreateOrders (20090331231455)
 [0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("orders")[0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:31:57) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+
+ActionView::MissingTemplate (Missing template products/index.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:32:21) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+
+ActionView::MissingTemplate (Missing template products/index.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:32:23) [GET]
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" [0m
+
+ActionView::MissingTemplate (Missing template products/index.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:32:24) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+
+ActionView::MissingTemplate (Missing template products/index.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:33:23) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:33:44) [GET]
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+ERROR: compiling _run_haml_app47views47products47index46haml RAISED /Users/chris/Sites/gnw/app/views/products/index.haml:6: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/chris/Sites/gnw/app/views/products/index.haml:8: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _run_haml_app47views47products47index46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h1>Products</h1>\n");@current_objects.each do |product|;
+
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_view/renderable.rb:77:in `module_eval'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_view/renderable.rb:77:in `compile!'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby19/gems/1.9.1/gems/haml-2.0.9/lib/haml/helpers/action_view_mods.rb:14:in `render_with_haml'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/usr/lib/ruby19/gems/1.9.1/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/lib/ruby19/1.9.1/benchmark.rb:308:in `realtime'
+/usr/lib/ruby19/gems/1.9.1/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/usr/lib/ruby19/gems/1.9.1/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/lib/ruby19/1.9.1/benchmark.rb:308:in `realtime'
+/usr/lib/ruby19/gems/1.9.1/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action_with_flash'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process_with_filters'
+/usr/lib/ruby19/gems/1.9.1/gems/haml-2.0.9/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `block in initialize'
+/usr/lib/ruby19/gems/1.9.1/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `block in call'
+/usr/lib/ruby19/gems/1.9.1/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby19/gems/1.9.1/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby19/gems/1.9.1/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:102:in `dispatch_cgi'
+/usr/lib/ruby19/gems/1.9.1/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:28:in `dispatch'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/rack/adapter/rails.rb:54:in `serve_rails'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/rack/adapter/rails.rb:74:in `call'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/connection.rb:63:in `pre_process'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/connection.rb:54:in `process'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/connection.rb:39:in `receive_data'
+/usr/lib/ruby19/gems/1.9.1/gems/eventmachine-0.12.6/lib/eventmachine.rb:240:in `run_machine'
+/usr/lib/ruby19/gems/1.9.1/gems/eventmachine-0.12.6/lib/eventmachine.rb:240:in `run'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/backends/base.rb:57:in `start'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/server.rb:150:in `start'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/controllers/controller.rb:80:in `start'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/runner.rb:173:in `run_command'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/lib/thin/runner.rb:139:in `run!'
+/usr/lib/ruby19/gems/1.9.1/gems/thin-1.0.0/bin/thin:6:in `<top (required)>'
+/usr/bin/thin:19:in `load'
+/usr/bin/thin:19:in `<main>'
+
+ActionView::TemplateError (/Users/chris/Sites/gnw/app/views/products/index.haml:6: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/chris/Sites/gnw/app/views/products/index.haml:8: syntax error, unexpected $end, expecting keyword_end) on line #6 of app/views/products/index.haml:
+3: -@current_objects.each do |product|
+4:   
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render_with_haml'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+    thin (1.0.0) lib/thin/connection.rb:54:in `process'
+    thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+    eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+    eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+    thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+    thin (1.0.0) lib/thin/server.rb:150:in `start'
+    thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+    thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+    thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+    thin (1.0.0) bin/thin:6:in `<top (required)>'
+    /usr/bin/thin:19:in `load'
+    /usr/bin/thin:19:in `<main>'
+
+Rendered rescues/_trace (77.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:33:57) [GET]
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:34:10) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+
+ActionView::TemplateError (4 spaces were used for indentation. Haml must be indented using two spaces.) on line #4 of app/views/products/index.haml:
+1: %h1 Products
+2: 
+3: - @current_objects.each do |product|
+4:     = product.name
+5:   end
+
+    app/views/products/index.haml:4
+    haml (2.0.9) lib/haml/precompiler.rb:163:in `block in precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render_with_haml'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+    thin (1.0.0) lib/thin/connection.rb:54:in `process'
+    thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+    eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+    eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+    thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+    thin (1.0.0) lib/thin/server.rb:150:in `start'
+    thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+    thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+    thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+    thin (1.0.0) bin/thin:6:in `<top (required)>'
+    /usr/bin/thin:19:in `load'
+    /usr/bin/thin:19:in `<main>'
+
+Rendered rescues/_trace (74.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:34:18) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:34:19) [GET]
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/products]
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Red Label') LIMIT 1[0m
+  [4;35;1mProduct Create (0.6ms)[0m   [0mINSERT INTO "products" ("name", "price", "quantity", "created_at", "updated_at") VALUES('Red Label', 299.99, 12, '2009-03-31 23:34:52', '2009-03-31 23:34:52')[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:35:00) [GET]
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 17ms (View: 12, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:35:05) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:35:13) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:35:15) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:35:25) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 00:35:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template products/show.erb in view path app/views):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 00:35:37) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/products]
