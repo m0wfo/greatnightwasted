@@ -760,3 +760,752 @@ Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:35:16) [GET]
 Rendering template within layouts/application
 Rendering products/show
 Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:46:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Completed in 27ms (View: 21, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:47:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:47:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Completed in 61ms (View: 56, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update to 1 (for 127.0.0.1 at 2009-04-01 20:47:22) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4="}
+Redirected to http://localhost:3000/products/1
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/basket.1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:47:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:48:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.5ms)
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:48:35) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.1ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:48:42) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.6ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:49:44) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.9ms)
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:50:19) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.1ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:50:33) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (1.2ms)
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:51:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 48ms (View: 43, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:51:51) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:52:15) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:52:59) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:53:18) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (1.2ms)
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:31) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:32) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:32) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:33) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 43ms (View: 38, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:35) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:35) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:36) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:37) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:37) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:38) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:38) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:54:39) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:57:21) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 41ms (View: 37, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:57:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update to 1 (for 127.0.0.1 at 2009-04-01 20:57:23) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4="}
+
+ActiveRecord::RecordNotFound (Couldn't find Product without an ID):
+  app/controllers/baskets_controller.rb:3:in `update'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendered rescues/_trace (54.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:57:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:57:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 20:57:46) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+
+TypeError (can't convert Fixnum into String):
+  app/controllers/baskets_controller.rb:4:in `+'
+  app/controllers/baskets_controller.rb:4:in `update'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendered rescues/_trace (52.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 20:58:12) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+
+TypeError (can't convert Fixnum into String):
+  app/controllers/baskets_controller.rb:4:in `+'
+  app/controllers/baskets_controller.rb:4:in `update'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:58:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:58:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 20:58:16) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+
+TypeError (can't convert Fixnum into String):
+  app/controllers/baskets_controller.rb:4:in `+'
+  app/controllers/baskets_controller.rb:4:in `update'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.0.0) lib/thin/connection.rb:63:in `pre_process'
+  thin (1.0.0) lib/thin/connection.rb:54:in `process'
+  thin (1.0.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run_machine'
+  eventmachine (0.12.6) lib/eventmachine.rb:240:in `run'
+  thin (1.0.0) lib/thin/backends/base.rb:57:in `start'
+  thin (1.0.0) lib/thin/server.rb:150:in `start'
+  thin (1.0.0) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.0.0) lib/thin/runner.rb:173:in `run_command'
+  thin (1.0.0) lib/thin/runner.rb:139:in `run!'
+  thin (1.0.0) bin/thin:6:in `<top (required)>'
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19:in `<main>'
+
+Rendered rescues/_trace (52.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:58:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:58:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:58:23) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:59:43) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (1.4ms)
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:59:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:59:46) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:59:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:59:49) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:59:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:59:50) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:59:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:59:51) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.3ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 20:59:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 20:59:52) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:01:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:01:21) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:01:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:01:23) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:01:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:01:23) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:01:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:01:24) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:01:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:05:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (1.5ms)
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:05:41) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "empty"=>"true"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?empty=true]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:05:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:05:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:05:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.3ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:05:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:05:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:08:14) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "empty"=>"true"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?empty=true]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:08:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:08:14) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "empty"=>"true"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?empty=true]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:08:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:08:16) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "empty"=>"true"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?empty=true]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:08:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:08:18) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "empty"=>"true"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?empty=true]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:08:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:09:49) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:09:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:09:50) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:09:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.2ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 21:09:51) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+Redirected to http://localhost:3000/products/1
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:09:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (0.3ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 21:10:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered baskets/_mini (1.4ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/products/1]

@@ -1,0 +1,5 @@
+#basket
+  %p Your basket
+  = session[:basket].inspect
+  
+  %p= link_to "Empty basket", basket_path(:empty => "true"), :method => :put
