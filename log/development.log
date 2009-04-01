@@ -7137,3 +7137,19 @@ Rendering products/index
   [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE (quantity > 0) [0m
 Rendered products/_mini (0.4ms)
 Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 22:38:04) [GET]
+Rendering template within layouts/application
+Rendering products/index
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE (quantity > 0) [0m
+Rendered products/_mini (0.4ms)
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/products/]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 22:38:05) [GET]
+Rendering template within layouts/application
+Rendering products/index
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE (quantity > 0) [0m
+Rendered products/_mini (0.4ms)
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/products/]

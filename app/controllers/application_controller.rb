@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   helper :all
-  protect_from_forgery :secret => '8e904b952b7f617854e82703d574bf94'
+  protect_from_forgery
   before_filter :load_basket
   
   private
