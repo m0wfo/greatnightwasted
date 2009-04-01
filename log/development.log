@@ -7079,3 +7079,61 @@ Rendering template within layouts/application
 Rendering products/show
 Rendered products/_mini (0.3ms)
 Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:37:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:37:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:37:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:37:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 22:37:19) [GET]
+Rendering template within layouts/application
+Rendering products/index
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE (quantity > 0) [0m
+Rendered products/_mini (0.4ms)
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/products/]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 22:37:19) [GET]
+Rendering template within layouts/application
+Rendering products/index
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE (quantity > 0) [0m
+Rendered products/_mini (0.4ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/products/]
