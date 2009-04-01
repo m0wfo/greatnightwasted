@@ -1,0 +1,16 @@
+%h2 Checkout
+
+%h3 Your Order
+
+- @items.each do |item|
+  = item.name
+  
+- form_for(@order) do |o|
+  %p= o.error_message_on(:name)
+  %p= o.text_field(:name)
+  %p= o.error_message_on(:room)
+  %p= o.text_field(:room)
+  %p= o.error_message_on(:mobile)
+  %p= o.text_field(:mobile)
+
+  = submit_tag "Gimme booze"

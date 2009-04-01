@@ -1,3 +1,5 @@
 %h2= @current_object.name
 
-= link_to "Add to basket", basket_path(:id => @current_object.id), :method => :put 
+= link_to "Add to basket", basket_path(:id => @current_object.id), :method => :put
+
+= render :partial => "mini"

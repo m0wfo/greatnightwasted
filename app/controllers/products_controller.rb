@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
   make_resourceful do
-    actions :all
+    actions :index, :show
   end
 end
