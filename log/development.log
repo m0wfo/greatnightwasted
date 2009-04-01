@@ -6635,3 +6635,447 @@ Rendering template within layouts/application
 Rendering products/show
 Rendered products/_mini (0.3ms)
 Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:33:42) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:33:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#new (for 127.0.0.1 at 2009-04-01 22:33:43) [GET]
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering orders/new
+Completed in 24ms (View: 13, DB: 0) | 200 OK [http://localhost/orders/new]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#create (for 127.0.0.1 at 2009-04-01 22:33:47) [POST]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "order"=>{"name"=>"dfgdf", "room"=>"gdfgdf", "mobile"=>"124345644"}, "commit"=>"Gimme booze"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Red label' AND "products".id <> 1) LIMIT 1[0m
+  [4;35;1mOrder Create (0.4ms)[0m   [0mINSERT INTO "orders" ("name", "room", "mobile", "created_at", "updated_at") VALUES('dfgdf', 'gdfgdf', '124345644', '2009-04-01 21:33:47', '2009-04-01 21:33:47')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("order_id", "product_id") VALUES(1, 1)[0m
+Redirected to http://localhost:3000/orders/1
+Completed in 92ms (DB: 1) | 302 Found [http://localhost/orders]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#show (for 127.0.0.1 at 2009-04-01 22:33:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mOrder Load (0.2ms)[0m   [0mSELECT * FROM "orders" WHERE ("orders"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering orders/show
+Completed in 47ms (View: 6, DB: 0) | 200 OK [http://localhost/orders/1]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" LIMIT 1[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" LIMIT 1[0m
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#new (for 127.0.0.1 at 2009-04-01 22:34:43) [GET]
+Rendering template within layouts/application
+Rendering orders/new
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/orders/new]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:48) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:50) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:50) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:51) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:52) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:54) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "empty"=>"true"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/basket?empty=true]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.4ms)
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:34:58) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:34:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" LIMIT 1[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" LIMIT 1[0m
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#new (for 127.0.0.1 at 2009-04-01 22:35:21) [GET]
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering orders/new
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/orders/new]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#create (for 127.0.0.1 at 2009-04-01 22:35:23) [POST]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "order"=>{"name"=>"dfgdf", "room"=>"gdfgdf", "mobile"=>"124345644"}, "commit"=>"Gimme booze"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Red label' AND "products".id <> 1) LIMIT 1[0m
+  [4;35;1mOrder Create (0.3ms)[0m   [0mINSERT INTO "orders" ("name", "room", "mobile", "created_at", "updated_at") VALUES('dfgdf', 'gdfgdf', '124345644', '2009-04-01 21:35:23', '2009-04-01 21:35:23')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("order_id", "product_id") VALUES(2, 1)[0m
+  [4;35;1mProduct Update (0.3ms)[0m   [0mUPDATE "products" SET "quantity" = 1, "updated_at" = '2009-04-01 21:35:23' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/orders/2
+Completed in 23ms (DB: 1) | 302 Found [http://localhost/orders]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#show (for 127.0.0.1 at 2009-04-01 22:35:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT * FROM "orders" WHERE ("orders"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering orders/show
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/orders/2]
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" LIMIT 1[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" LIMIT 1[0m
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" LIMIT 1[0m
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 22:35:34) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered products/_mini (1.4ms)
+Completed in 293ms (View: 287, DB: 0) | 200 OK [http://localhost/products/]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:35:37) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 44ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:35:38) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:35:38) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:35:39) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:35:39) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#new (for 127.0.0.1 at 2009-04-01 22:35:44) [GET]
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering orders/new
+Completed in 51ms (View: 5, DB: 0) | 200 OK [http://localhost/orders/new]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#create (for 127.0.0.1 at 2009-04-01 22:35:47) [POST]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "order"=>{"name"=>"dfgdf", "room"=>"gdfgdf", "mobile"=>"124345644"}, "commit"=>"Gimme booze"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Red label' AND "products".id <> 1) LIMIT 1[0m
+  [4;36;1mOrder Create (0.3ms)[0m   [0;1mINSERT INTO "orders" ("name", "room", "mobile", "created_at", "updated_at") VALUES('dfgdf', 'gdfgdf', '124345644', '2009-04-01 21:35:47', '2009-04-01 21:35:47')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("order_id", "product_id") VALUES(3, 1)[0m
+  [4;36;1mProduct Update (0.3ms)[0m   [0;1mUPDATE "products" SET "quantity" = 0, "updated_at" = '2009-04-01 21:35:47' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/orders/3
+Completed in 24ms (DB: 1) | 302 Found [http://localhost/orders]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing OrdersController#show (for 127.0.0.1 at 2009-04-01 22:35:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mOrder Load (0.2ms)[0m   [0mSELECT * FROM "orders" WHERE ("orders"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering orders/show
+Completed in 14ms (View: 1, DB: 0) | 200 OK [http://localhost/orders/3]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-04-01 22:35:53) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/products/]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing BasketsController#update (for 127.0.0.1 at 2009-04-01 22:35:56) [PUT]
+  Parameters: {"authenticity_token"=>"mROVILG8QFQoSwsfG7dOhcD0MkXAz5yqZqVIibDLmK4=", "id"=>"1"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Redirected to http://localhost:3000/products/1
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/basket?id=1]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from <class:ApplicationController> at /Users/chris/Sites/gnw/app/controllers/application_controller.rb:3)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-04-01 22:35:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/show
+Rendered products/_mini (0.3ms)
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/products/1]

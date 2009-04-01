@@ -14,6 +14,6 @@ class Order < ActiveRecord::Base
   end
   
   def decrement_product_quantities
-    products.each { |product| product.decrement(:quantity) }
+    products.each { |product| product.decrement(:quantity).save(false) }
   end
 end
