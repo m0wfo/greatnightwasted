@@ -1,4 +1,7 @@
 %h1 Products
 
 - @current_objects.each do |product|
-  = link_to product.name
+  = link_to product.name, product_path(product)
+  
+#basket
+  %p basket here
